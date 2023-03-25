@@ -6,6 +6,6 @@ int main() {
     cout<<"ADD a new line"<<endl;
     
     int a = 5, b = 5;
-    cout<<"a + b is : "<<a + b<<endl;
+    cout<<"a + b is "<<a + b<<endl;
     return 0;
 }
