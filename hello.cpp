@@ -5,7 +5,9 @@ int main() {
     cout<<"Hi there!welcome to world of C++"<<endl;
     cout<<"ADD a new line"<<endl;
     
-    int a = 5, b = 5;
+    int a, b;
+    cout<<"Enter two number here: ";
+    cin>>a>>b;
     cout<<"a + b is : "<<a + b<<endl;
     return 0;
 }
