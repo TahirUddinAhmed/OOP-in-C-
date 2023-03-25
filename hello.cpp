@@ -11,5 +11,7 @@ int main() {
     cin>>a>>b;
   
     cout<<"a + b is "<<a + b<<endl;
+
+    cout<<"Bye"<<endl;
     return 0;
 }
