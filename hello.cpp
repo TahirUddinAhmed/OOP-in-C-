@@ -2,16 +2,19 @@
 using namespace std;
 
 int main() {
-    cout<<"Hi there!welcome to world of C++"<<endl;
-    cout<<"ADD a new line"<<endl;
-    
+    cout<<"Hi there!"<<endl;
+    string name;
+    int age;
 
-    int a, b;
-    cout<<"Enter two number here: ";
-    cin>>a>>b;
-  
-    cout<<"a + b is "<<a + b<<endl;
+    cout<<"Enter your name here\n: ";
+    cin>>name;
+    cout<<"Enter your age\n: ";
+    cin>>age;
 
-    cout<<"Bye"<<endl;
+    if(age >= 18) {
+        cout<<"Hello, MR "<<name<<" Welcome to my world!"<<endl;
+    } else {
+        cout<<"Hello, "<<name<<" Welcome to my world!"<<endl;
+    }
     return 0;
 }
