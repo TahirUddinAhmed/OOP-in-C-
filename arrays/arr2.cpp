@@ -22,5 +22,6 @@ int main() {
         cout<<roll[i]<<"  ";
     }
     cout<<endl;
+    cout<<"End of the file"<<endl;
     return 0;
 }
