@@ -23,6 +23,5 @@ class Cars {
 int main() {
  Cars bwm(6, 4);
  bwm.show();
- cout<<"end of the file"<<endl;
  return 0;
 }
