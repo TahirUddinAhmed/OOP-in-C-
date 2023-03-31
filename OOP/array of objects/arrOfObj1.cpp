@@ -7,9 +7,9 @@ class Employee {
   
   public:
    void getData() {
-     cout<<"Enter the employee id\n: ";
+     cout<<"Employee id\n: ";
      cin>>emp_id;
-     cout<<"Enter the employee name\n: ";
+     cout<<" Name\n: ";
      cin>>name;
    }
    void putData() {
@@ -22,13 +22,16 @@ int main() {
  // array of objects
  Employee manager[60];
  int n;
- cout<<"Enter how many employee are there?\n: ";
+ cout<<"Enter no of employes?\n: ";
  cin>>n;
 
 // take input 
  for(int i = 0; i < n; i++) {
+    cout<<"Manager "<<i+1<<" Details"<<endl;
     manager[i].getData();
+    cout<<endl; // new line
  }
+ 
 
 // display manager's details
 cout<<"\nAll manager's details:- "<<endl;
