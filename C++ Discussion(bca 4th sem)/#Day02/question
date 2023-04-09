@@ -1,0 +1,10 @@
+//  Find errors, if any one the following C++ Statement: 
+//   a) cout<<"x = " x; 
+//   b) cout << \n "name: " <<name; 
+
+//  cout<<"x = "<<x; 
+
+
+//  x = 
+
+cout<<"\nname: "<<name;
