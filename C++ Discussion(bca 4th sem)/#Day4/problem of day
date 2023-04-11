@@ -1,0 +1,21 @@
+Question: 
+  write a program to find the greatest of two number.
+
+
+  // explanation:
+    let the numbers be 
+       first = 8
+       second = 9   (user)
+
+
+        if(condition) {
+            cout<<"gratest number is"<<first;
+        } else {
+            cout<<"gratest number is"<<second;
+        }
+
+
+        output: 
+           greatest number is : 9
+       
+       
