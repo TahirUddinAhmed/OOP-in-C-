@@ -1,0 +1,26 @@
+Q) WAP to check the following condition of a driver 
+   if(driver is M and his age is greater then 21 year)
+      print - "you are eligible to apply to liecence"
+   else if (driver is F and her age is 18) {
+      print - "you are eligible to apply to liecence"
+   } else {
+     print - "Sorry, you can't apply for liecence"
+   }
+
+   char gender;
+   int age;
+
+   cin>>gender;
+   cin>>age;
+
+   if(gender == 'M' && age > 21) {
+    cout<<"you are eligible to apply to liecence"<<endl;
+   } else if(gender == 'F' && age > 18) {
+    cout<<"you are eligible to apply to liecence"<<endl;
+   } else {
+    cout<<"Sorry, you can't apply for liecence"<<endl;
+   }
+
+   return 0;
+
+   
