@@ -2,16 +2,24 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+void addNatural(int n) {
     int i = 1, sum = 0;
 
-    while(i <= 10) {
+    while(i <= n) {
         sum = sum + i;   // sum + i = 0 + 1 = 1
         i++; // 11
     }
 
-    
     cout<<"\n\n\nTotal sum=  "<<sum<<endl;
+}
+
+int main() {
+    int num;
+
+    cout<<"Number eta di de: ";
+    cin>>num;
+
+    addNatural(num);    
 
     return 0;
 }
