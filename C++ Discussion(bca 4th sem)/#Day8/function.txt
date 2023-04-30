@@ -1,0 +1,2 @@
+create function called goodMrng()  which print 
+"good Morning";
